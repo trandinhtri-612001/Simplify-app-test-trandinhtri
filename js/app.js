@@ -75,3 +75,11 @@ if(str>1328){
         })
     }
   }
+
+
+  const colfooter = document.querySelectorAll(".col-footer");
+colfooter[0].style.marginLeft = '0';
+const lg = colfooter.length;
+
+colfooter[lg-1 ].style.margin = '0 0 0 15px'
+console.log(colfooter[lg-1 ])

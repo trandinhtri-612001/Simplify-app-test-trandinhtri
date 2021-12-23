@@ -352,14 +352,22 @@ border-radius: 5px ;
 
 .wraper-footer{
     margin-top: 86px;
-    justify-content: center;
+    
 .row-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
      .col-footer{
         max-width: 255px;
-       
+        margin: 0 15px;
+        .col-footer:first-child{
+            margin-left: 0;
+
+       }
+       .col-footer:last-child{
+        margin-right: 0;
+
+   }
         img{
             max-width: 0;
              height: 260px;
@@ -380,7 +388,6 @@ transition: 1s all;
         }
         h3{
             opacity: 0; 
-            transition: 1s all;
         }
        
      
