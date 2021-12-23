@@ -35,8 +35,8 @@ function myFunction() {
     let str =document.documentElement.scrollTop;
 hendle(str);
 controleFooter(str)
-controleripard(str)
-console.log(str)
+
+
 
       
   }
@@ -60,26 +60,25 @@ if(str>1328){
   }
   var w = window.screen.availWidth;
   var h = window.screen.availWidth;
-console.log(w )
-console.log(h)
-const controleripard=(str)=>{
-    if(w <=1506 ){
-        console.log('1111111111')
-        imgbannerip.style.right = '0';
-        contentbannerip.style.left='0';
-        wraperbannertrack.style.opacity= '1'
-        img.forEach((el,index)=>{
-            el.style.maxWidth = '255px'
-            title[index].style.opacity = '1' 
-            span[index].style.opacity = '1' 
-        })
+
+// const controleripard=(str)=>{
+//     if(w <=1506 ){
+//         
+//         imgbannerip.style.right = '0';
+//         contentbannerip.style.left='0';
+//         wraperbannertrack.style.opacity= '1'
+//         img.forEach((el,index)=>{
+//             el.style.maxWidth = '255px'
+//             title[index].style.opacity = '1' 
+//             span[index].style.opacity = '1' 
+//         })
         
-        colfooter[0].style.marginLeft = '15px';
-        const lg = colfooter.length;
+//         colfooter[0].style.marginLeft = '15px';
+//         const lg = colfooter.length;
         
-        colfooter[lg-1 ].style.margin = '0 15px 0 15px'
-    }
-}
+//         colfooter[lg-1 ].style.margin = '0 15px 0 15px'
+//     }
+// }
 
 
   const controleFooter = (str)=>{
