@@ -21,6 +21,7 @@ ul li {
 body {
   background-color: #ffffff;
   font-family: 'Mulish', sans-serif;
+  margin: 0;
 }
 
 .mobile-menu {
@@ -355,14 +356,6 @@ body {
 .wraper-footer .row-footer .col-footer {
   max-width: 255px;
   margin: 0 15px;
-}
-
-.wraper-footer .row-footer .col-footer .col-footer:first-child {
-  margin-left: 0;
-}
-
-.wraper-footer .row-footer .col-footer .col-footer:last-child {
-  margin-right: 0;
 }
 
 .wraper-footer .row-footer .col-footer img {

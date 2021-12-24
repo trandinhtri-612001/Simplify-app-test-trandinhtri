@@ -33,6 +33,7 @@ ul li{
 body{
     background-color: $--color-body;
     font-family: 'Mulish', sans-serif;
+    margin: 0;
 }
 .mobile-menu {
     display: none;
@@ -360,7 +361,7 @@ border-radius: 5px ;
      .col-footer{
         max-width: 255px;
         margin: 0 15px;
-    mar
+  
         img{
             max-width: 0;
              height: 260px;
